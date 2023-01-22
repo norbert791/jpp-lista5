@@ -1,4 +1,4 @@
-package PhilosopherProblemJava;
+package JavaProblem;
 
 public class Fork{
   public Fork() {id = generateId();}

@@ -1,4 +1,4 @@
-package PhilosopherProblemJava;
+package JavaProblem;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
