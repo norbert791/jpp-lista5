@@ -1,5 +1,7 @@
 package main
 
+//TODO make it actor based
+
 import (
 	"fmt"
 	"time"
