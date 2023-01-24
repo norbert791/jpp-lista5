@@ -1,9 +1,8 @@
-package Philosopher is
-  pragma Preelaborate;
+package philosopher is
 
   protected type MyMutex is
-    entry lock();
-    entry unlock();
+    entry lock;
+    entry unlock;
   private
     locked : Boolean := False; 
   end MyMutex;
@@ -27,7 +26,7 @@ package Philosopher is
   type PhilosopherPtr is access Philosopher;
 
   task type RunPhilo is
-    entry Start(ptr : PhilosopherPtr)
+    entry Start(ptr : PhilosopherPtr);
   end RunPhilo;
 
 end Philosopher;
